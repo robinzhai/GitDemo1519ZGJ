@@ -14,6 +14,7 @@
 		625051641C8022E100F97237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625051631C8022E100F97237 /* Assets.xcassets */; };
 		625051671C8022E100F97237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625051651C8022E100F97237 /* LaunchScreen.storyboard */; };
 		625051751C8027A000F97237 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 625051741C8027A000F97237 /* Student.m */; };
+		625051711C80265F00F97237 /* Preson.m in Sources */ = {isa = PBXBuildFile; fileRef = 625051701C80265F00F97237 /* Preson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		625051681C8022E100F97237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625051731C8027A000F97237 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		625051741C8027A000F97237 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		6250516F1C80265F00F97237 /* Preson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preson.h; sourceTree = "<group>"; };
+		625051701C80265F00F97237 /* Preson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				625051721C80278100F97237 /* B */,
+				6250516E1C80263F00F97237 /* A */,
 				6250515A1C8022E000F97237 /* AppDelegate.h */,
 				6250515B1C8022E000F97237 /* AppDelegate.m */,
 				6250515D1C8022E000F97237 /* ViewController.h */,
@@ -90,6 +94,15 @@
 				625051741C8027A000F97237 /* Student.m */,
 			);
 			name = B;
+        sourceTree = "<group>";
+        };
+		6250516E1C80263F00F97237 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				6250516F1C80265F00F97237 /* Preson.h */,
+				625051701C80265F00F97237 /* Preson.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			files = (
 				6250515F1C8022E000F97237 /* ViewController.m in Sources */,
 				6250515C1C8022E000F97237 /* AppDelegate.m in Sources */,
+				625051711C80265F00F97237 /* Preson.m in Sources */,
 				625051591C8022E000F97237 /* main.m in Sources */,
 				625051751C8027A000F97237 /* Student.m in Sources */,
 			);
